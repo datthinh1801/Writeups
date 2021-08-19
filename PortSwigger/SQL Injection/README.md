@@ -1,4 +1,6 @@
 # SQL Injection
+[Cheatsheet](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Cheatsheet.md).
+
 ## Labs
 | No. | Title |
 |---|---|
@@ -9,13 +11,3 @@
 | 5 | [SQL injection UNION attack, retrieving data from other tables](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Lab%2005.md) |
 | 6 | [SQL injection UNION attack, retrieving multiple values in a single column](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Lab%2006.md) |
 
-
-## Cheat sheet
-### String concatenation
-| DBMS | Syntax |
-|---|---|
-| Oracle | `'foo'\|\|'bar'` |
-| Microsoft | `'foo'+'bar'` |
-| PostgreSQL | `'foo'\|\|'bar'` |
-| MySQL | `'foo' 'bar'` (note the space between the 2 strings) |
-| | `'CONCAT('foo','bar')` |
