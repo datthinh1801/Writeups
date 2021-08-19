@@ -1,5 +1,5 @@
 # SQL Injection
-[Cheatsheet](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Cheatsheet.md).
+[Cheatsheet](https://portswigger.net/web-security/sql-injection/cheat-sheet).
 
 ## Labs
 | No. | Title |
