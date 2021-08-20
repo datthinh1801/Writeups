@@ -17,7 +17,7 @@ First, we need to make sure that it is indeed vulnerable by injecting:
 
 ![image](https://user-images.githubusercontent.com/44528004/130160864-87927571-3ac9-4322-aed2-a78b50fdf6e2.png)  
 
-As the result, it is vulnerable.  
+As the result, it is vulnerable because the response contains the `Welcome back!` string.  
 
 Next, we find the length of the password:  
 ```
