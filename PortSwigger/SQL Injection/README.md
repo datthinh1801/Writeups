@@ -17,4 +17,6 @@
 | 11 | [Blind SQL injection with conditional responses](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Lab%2011.md) | Solved |
 | 12 | [Blind SQL injection with conditional errors](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Lab%2012.md) | Solved |
 | 13 | [Blind SQL injection with time delays](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Lab%2013.md) | Solved |
-| 14 | [Blind SQL injection with time delays and information retrieval](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Lab%2014.md) | |
+| 14 | [Blind SQL injection with time delays and information retrieval](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Lab%2014.md) | Solved |
+| 15 | [Blind SQL injection with out-of-band interaction](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Lab%2015.md) | |
+| 16 | [Blind SQL injection with out-of-band data exfiltration](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/SQL%20Injection/Lab%2016.md) | |
