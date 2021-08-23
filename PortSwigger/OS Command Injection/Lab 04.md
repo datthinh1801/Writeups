@@ -18,7 +18,7 @@ name=hacker&email=hacker%40hacker.com&subject=hack&message=hack`nslookup rje8b1i
 
 Comeback to the Burp Collaborator client, click **Poll now** and see that there are some coming dns queries.  
 
-![image](https://user-images.githubusercontent.com/44528004/130431375-83cd03a2-6cce-41e3-98d1-149ddc9913d2.png)
+![image](https://user-images.githubusercontent.com/44528004/130431793-cc7818ab-fa1f-48cc-8b31-70440a1aeaf8.png)
 
 That's also what this lab wants us to do.  
 
