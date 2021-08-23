@@ -15,6 +15,8 @@ Here, as the application blocks traversal sequences, I guess it blocks `..`. Thu
 
 Initially, I think that because the `filename` is relative to the default working directory, it could be appended to that path.
 However, when we use the absolute path `/etc/passwd`, it works:  
+> Now, I think that the program doesn't append the `filename` to any path at all. It simply treats the filename relative to the default working directory implicitly; therefore, we we provide `/etc/passwd`, it becomes an absolute path.  
+
 
 ![image](https://user-images.githubusercontent.com/44528004/130412436-dd6cd084-843f-4fe5-af8f-e15c7e83a296.png)
 > Solved!
