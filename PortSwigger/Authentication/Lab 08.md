@@ -38,3 +38,15 @@ On the **Payloads** tab, setup the payload options as follows and start attack:
 
 ![image](https://user-images.githubusercontent.com/44528004/130580275-5e29ebb8-df4c-414e-b688-6345154bca23.png)
 
+Here, the valid code is `1785`:  
+
+![image](https://user-images.githubusercontent.com/44528004/130584687-fe37abf6-b8cd-4f7d-82d3-96d7ccd42db0.png)
+
+Finally, I'll use this code to verify and login as `carlos`:  
+
+![image](https://user-images.githubusercontent.com/44528004/130584765-387f4dfa-d68e-444f-9532-c7fab317ec20.png)  
+
+![image](https://user-images.githubusercontent.com/44528004/130584813-7a910b20-aecc-492b-bd0b-6ba99c0f943b.png)
+> Solved!
+
+
