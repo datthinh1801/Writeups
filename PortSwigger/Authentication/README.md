@@ -8,3 +8,6 @@
 | 4 | [Broken brute-force protection, IP block](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2004.md) | Solved |
 | 5 | [Username enumeration via account lock](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2005.md) | Solved |
 | 6 | [Broken brute-force protection, multiple credentials per request](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2006.md) | Solved |
+| 7 | [2FA simple bypass](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2007.md) | Solved |
+| 8 | [2FA broken logic](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2008.md) | Solved |
+| 9 | [2FA bypass using a brute-force attack](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2009.md) | |
