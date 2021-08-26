@@ -9,5 +9,5 @@ On the feedback page, I entered required information in the fields and specify w
 
 And then, solved!  
 
-![image](https://user-images.githubusercontent.com/44528004/130934261-9728645a-e7ee-4eac-ada6-ab9297affdf6.png)
+![image](https://user-images.githubusercontent.com/44528004/130934413-ced8ed74-7858-40ad-acd8-b7e323b9ef66.png)
 
