@@ -12,3 +12,4 @@
 | 8 | [2FA broken logic](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2008.md) | Solved |
 | 9 | [2FA bypass using a brute-force attack](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2009.md) | |
 | 10 | [Brute-forcing a stay-logged-in cookie](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2010.md) | Solved |
+| 11 | [Offline password cracking](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2011.md) | |
