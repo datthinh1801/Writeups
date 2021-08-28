@@ -13,3 +13,6 @@
 | 9 | [2FA bypass using a brute-force attack](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2009.md) | | Require *XSS* knowledge |
 | 10 | [Brute-forcing a stay-logged-in cookie](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2010.md) | Solved |
 | 11 | [Offline password cracking](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2011.md) | | Require *HTTP Host header attacks - Password reset poisoning* knowledge |
+| 12 | [Password reset broken logic](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2012.md) | Solved | |
+| 13 | [Password reset poisoning via middleware](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2013.md) | | Require *HTTP Host header attacks - Password reset poisoning* knowledge |
+| 14 | [Password brute-force via password change](https://github.com/datthinh1801/Writeups/blob/main/PortSwigger/Authentication/Lab%2014.md) | Solved | |
