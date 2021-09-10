@@ -4,7 +4,7 @@ Challenge URL: https://websec.fr/level01/index.php
 
 ![image](https://user-images.githubusercontent.com/44528004/132601995-9e60abba-e344-4271-83e8-3392e98229d1.png)
 ## Solution
-### Initial recognition
+### Initial observation
 The `this application` links to the back-end source code including PHP and HTML. Following is the source for PHP:  
 ```php
 <?php
