@@ -10,7 +10,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
   baseUrl: '/Writeups/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
+  favicon: 'img/gh_profile.png',
   organizationName: 'datthinh1801', // Usually your GitHub org/user name.
   projectName: 'Writeups', // Usually your repo name.
 
@@ -22,13 +22,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/edit/main/website/',
-        },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/main/website/blog/',
+          editUrl: 'https://github.com/datthinh1801/Writupes/tree/main/website',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -44,7 +38,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
         title: 'datthinh1801',
         logo: {
           alt: 'My Site Logo',
-          src: 'img/logo.svg',
+          src: 'img/gh_profile.png',
         },
         items: [
           {
@@ -53,7 +47,6 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
             position: 'left',
             label: 'Writeups',
           },
-          // {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/datthinh1801/Writeups',
             label: 'GitHub',
@@ -63,7 +56,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
       },
       footer: {
         style: 'dark',
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} datthinh1801. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
