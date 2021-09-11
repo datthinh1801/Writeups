@@ -11,8 +11,8 @@ jobs:
     if: github.event_name != 'push'
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v1
-      - uses: actions/setup-node@v1
+      - uses: actions/checkout@v2
+      - uses: actions/setup-node@v2
         with:
           node-version: '14.x'
       - name: Test Build
@@ -33,13 +33,7 @@ jobs:
       - uses: actions/setup-node@v1
         with:
           node-version: '14.x'
-      - uses: webfactory/ssh-agent@v0.5.3
-        with:
-          ssh-private-key: ${{ secrets.GH_PAGES_DEPLOY }}
       - name: Release to GitHub Pages
-        env:
-          USE_SSH: true
-          GIT_USER: gh_pages_action
         run: |
           git config --global user.email "44528004+datthinh1801@users.noreply.github.com"
           git config --global user.name "datthinh1801"
