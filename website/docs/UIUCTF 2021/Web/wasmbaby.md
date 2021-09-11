@@ -1,4 +1,4 @@
-# wasmbaby (50)
+# wasmbaby
 ## Task
 ```
 wasm's a cool new technology! http://wasmbaby.chal.uiuc.tf

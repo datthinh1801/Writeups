@@ -1,7 +1,8 @@
-# Task
+# Level 2
+## Task
 ![image](https://user-images.githubusercontent.com/44528004/132695985-bdd36389-247f-4795-b05e-527c431abfea.png)
 
-# Solution
+## Solution
 The source of code of this challenge is:
 ```php
 <?php

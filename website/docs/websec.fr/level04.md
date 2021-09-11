@@ -1,8 +1,9 @@
-# Task
+# Level 4
+## Task
 ![image](https://user-images.githubusercontent.com/44528004/132701258-bb744fd5-f757-42b7-88c9-edc1dbaa1a56.png)
 
-# Solution
-## Initial observation
+## Solution
+### Initial observation
 The first source:
 ```php
 <?php
@@ -81,7 +82,7 @@ When the server receives a request, it decodes the `leet_hax0r` cookie value, un
 
 In the second source code, the interesting here is the `__destruct()` method because it will be called when a `SQL` object is deleted. In addition, the `username` column from the result of the SQL query will be echoed.
 
-## Exploitation
+### Exploitation
 From the above information, we can guess that this application is vulnerable to **object injection**.  
 In order to execute an arbitrary SQL query, we need to craft ourselves an `SQL` object whose properties are similar to those of the `$sql` on the server.
 ```php
