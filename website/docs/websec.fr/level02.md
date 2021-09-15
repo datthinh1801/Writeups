@@ -1,6 +1,11 @@
 # Level 2
 ## Description
-![image](https://user-images.githubusercontent.com/44528004/132695985-bdd36389-247f-4795-b05e-527c431abfea.png)
+Challenge URL: https://websec.fr/level02/index.php  
+
+This application is the same as the [previous one](https://websec.fr/level01/index.php) (You can [check by yourself](https://websec.fr/level02/source.php) if you don't trust us). However, the developers saw the logs and found that the application was being attacked so they filtered out some of the database keywords which made it possible.
+
+The following keywords were found to be filtered by the application using [preg_replace ()](https://secure.php.net/preg_replace): `union`, `order`, `select`, `from`, `group`, `by`.
+
 
 ## Solution
 The source of code of this challenge is:
