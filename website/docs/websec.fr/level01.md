@@ -1,8 +1,9 @@
 # Level 1
 ## Description
-Challenge URL: https://websec.fr/level01/index.php  
+Challenge URL: https://websec.fr/level01/index.php 
 
-![image](https://user-images.githubusercontent.com/44528004/132601995-9e60abba-e344-4271-83e8-3392e98229d1.png)
+[This application](https://websec.fr/level01/source.php) is used to view the username by the given user ID, it will return the corresponding username from the database.
+
 ## Solution
 ### Initial observation
 The `this application` links to the back-end source code including PHP and HTML. Following is the source for PHP:  
@@ -51,7 +52,7 @@ Warning: SQLite3::query(): Unable to prepare statement: 1, unrecognized token: "
 Fatal error: Call to a member function fetchArray() on boolean in /index.php on line 17
 ```
 
-If I enter '' or 1=1 --, I get this:  
+If I enter '' or 1=1 -- (*2 single quotes*), I get this:  
 
 ![image](https://user-images.githubusercontent.com/44528004/132615026-734f4575-28eb-4e65-9bb3-da1ad6e08955.png)
 
