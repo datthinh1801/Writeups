@@ -1,6 +1,9 @@
 # Level 4
 ## Task
-![image](https://user-images.githubusercontent.com/44528004/132701258-bb744fd5-f757-42b7-88c9-edc1dbaa1a56.png)
+Challenge URL: https://websec.fr/level04/index.php  
+
+Since we're lazy, we take advantage of php's garbage collector to properly display query results.
+We also do like to write neat OOP. You can get the sources [here](https://websec.fr/level04/source1.php) and [here](https://websec.fr/level04/source2.php). 
 
 ## Solution
 ### Initial observation
