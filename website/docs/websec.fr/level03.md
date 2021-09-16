@@ -1,13 +1,7 @@
 # Level 3
-## Task
-![image](https://user-images.githubusercontent.com/44528004/132819566-2f6e9cab-3607-47cd-9277-7497cfd25a0a.png)
+## Description
+Since php types are ~~idiotic~~[sloppy](https://secure.php.net/manual/en/language.operators.comparison.php), it's safer to hash the raw variables first, with [sha1](https://en.wikipedia.org/wiki/SHA-1) (that does accept arrays and other weird things), then to hash the result with password_hash to avoid funny stuff.
+To compare them, we're using password_verify, since its [implementation](https://git.php.net/?p=php-src.git;a=blob;f=ext/standard/password.c;h=2a5cec3e93b33387ad3c478108647d2ccacf68a4;hb=HEAD) is foolproof.
+[Check by yourself](https://websec.fr/level03/source.php) what's going on if you don't believe me. 
 
 ## Solution
-Firstly, the hyperlink under `sloppy` links us to the **Comparison Operators** of PHP.  
-
-![image](https://user-images.githubusercontent.com/44528004/132819818-fbf3d8da-eaef-4a1f-b126-de9a7cb4fcc0.png)
-
-The second hyperlink, `sha1`, links to Wikipedia.  
-
-![image](https://user-images.githubusercontent.com/44528004/132819939-49caa858-625b-44dd-84f4-3b037e180c07.png)
-
