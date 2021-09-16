@@ -1,5 +1,5 @@
 # Level 4
-## Task
+## Description
 Challenge URL: https://websec.fr/level04/index.php  
 
 Since we're lazy, we take advantage of php's garbage collector to properly display query results.
