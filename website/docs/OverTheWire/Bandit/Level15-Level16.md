@@ -1,7 +1,7 @@
-# Goal
+## Goal
 The password for the next level can be retrieved by submitting the password of the current level to port `30001` on `localhost` using SSL encryption.
 
-# Soltuion
+## Soltuion
 First, we initiate an SSL connection to `localhost:30001`.
 ```sh
 bandit15@bandit:~$ openssl s_client -connect localhost:30001 -ign_eof
