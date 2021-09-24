@@ -1,7 +1,7 @@
-# Goal
+## Goal
 The password for the next level is stored in the file `data.txt` in one of the few human-readable strings, preceded by several `=` characters.
 
-# Solution
+## Solution
 In the `data.txt` file, human-readable and unreadable strings are mixed; therefore, we can use the `strings` command to only print readable (or printable) characters. Then we can `grep` for `=` to get the password.
 
 ```sh
